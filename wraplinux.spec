@@ -1,13 +1,14 @@
 Summary:	Utility to wrap a Linux kernel and initrd into an ELF or NBI file
 Summary(pl.UTF-8):	Narzędzie do obudowywania jądra Linuksa wraz z initrd w plik ELF lub NBI
 Name:		wraplinux
-Version:	1.1
+Version:	1.6
 Release:	1
 Epoch:		1
 License:	GPL v2+
 Group:		Applications/System
 Source0:	ftp://ftp.kernel.org/pub/linux/utils/boot/wraplinux/%{name}-%{version}.tar.bz2
-# Source0-md5:	57dbf62f8719158926e42eec024206b8
+# Source0-md5:	3c26f7abe6a371f92d575eb9156d9ea5
+URL:		http://freshmeat.net/projects/wraplinux/
 %ifarch %{x8664}
 # not exactly multilib as x86 libs are not needed, but gcc with -m32 support
 BuildRequires:	gcc-multilib
