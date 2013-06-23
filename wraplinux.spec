@@ -2,7 +2,7 @@ Summary:	Utility to wrap a Linux kernel and initrd into an ELF or NBI file
 Summary(pl.UTF-8):	Narzędzie do obudowywania jądra Linuksa wraz z initrd w plik ELF lub NBI
 Name:		wraplinux
 Version:	1.7
-Release:	1
+Release:	2
 Epoch:		1
 License:	GPL v2+
 Group:		Applications/System
